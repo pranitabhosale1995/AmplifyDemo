@@ -1,0 +1,40 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-rnamplify-dev-102106-authRole",
+      "UnauthRoleArn": "arn:aws:iam::897708493501:role/amplify-rnamplify-dev-102106-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::897708493501:role/amplify-rnamplify-dev-102106-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-rnamplify-dev-102106-deployment",
+      "UnauthRoleName": "amplify-rnamplify-dev-102106-unauthRole",
+      "StackName": "amplify-rnamplify-dev-102106",
+      "StackId": "arn:aws:cloudformation:us-east-1:897708493501:stack/amplify-rnamplify-dev-102106/9d92ded0-66a4-11eb-b168-0af655d326e7",
+      "AmplifyAppId": "d189udruf1vrjv"
+    }
+  },
+  "auth": {
+    "rnamplify942f7465": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-rnamplify-dev-102106-deployment/amplify-cfn-templates/auth/rnamplify942f7465-cloudformation-template.yml",
+        "logicalId": "authrnamplify942f7465"
+      },
+      "lastPushTimeStamp": "2021-02-04T05:07:33.162Z",
+      "output": {
+        "AppClientSecret": "iuggb89itlgcg2ursj9dgk6j2v0i6gbl0rr99eoesl0otflbhsq",
+        "UserPoolId": "us-east-1_om1xletLK",
+        "AppClientIDWeb": "764a2dfgcvbr7cuei70iumf8n4",
+        "AppClientID": "79enuquke6kel1d1nuhq3hg2of",
+        "HostedUIDomain": "rnamplify942f7465-942f7465-dev",
+        "IdentityPoolId": "us-east-1:2cf52559-f6b3-42ba-b7bc-6f9b9090e51f",
+        "IdentityPoolName": "rnamplify942f7465_identitypool_942f7465__dev",
+        "OAuthMetadata": "{\"AllowedOAuthFlows\":[\"code\"],\"AllowedOAuthScopes\":[\"phone\",\"email\",\"openid\",\"profile\",\"aws.cognito.signin.user.admin\"],\"CallbackURLs\":[\"http://localhost:3000/\"],\"LogoutURLs\":[\"http://localhost:3000/\"]}",
+        "UserPoolName": "rnamplify942f7465_userpool_942f7465"
+      },
+      "lastPushDirHash": "nU2QVWNWbwoARezY+Qy1x4Wz3iU="
+    }
+  }
+}
